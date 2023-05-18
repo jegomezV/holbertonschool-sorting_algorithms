@@ -30,5 +30,6 @@ void quick_sort(int *array, size_t size);
 void quick_helper(int *array, int left, int right);
 int part_array(int *array, int left, int right);
 void swap(int *array, int a, int b);
-
+/* GLOBAL VARIABLES */
+int real_size;
 #endif
